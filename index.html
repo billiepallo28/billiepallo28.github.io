@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billie Bernmarc Bungtilu Pallo, S.Kom. | Portofolio & Multimedia Specialist</title>
+  <meta name="description"
+    content="Portofolio resmi Billie Bernmarc Bungtilu Pallo, S.Kom. Lulusan S1 Informatika Universitas Uyelindo (IPK 3.68), Operator Multimedia GMIT Kefas, Operator SIAK, Analis Data, dan Pemrograman Web.">
+  <meta name="keywords"
+    content="Billie Bernmarc Bungtilu Pallo, S.Kom., Billie Pallo, Portofolio, S1 Informatika, Universitas Uyelindo, Operator Multimedia, Operator SIAK, Kupang, NTT, Analis Data, Web Developer">
+  <meta name="author" content="Billie Bernmarc Bungtilu Pallo, S.Kom.">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Billie Bernmarc Bungtilu Pallo, S.Kom. | Portofolio S1 Informatika">
+  <meta property="og:description"
+    content="Portofolio Profesional Billie Bernmarc Bungtilu Pallo - S1 Informatika Universitas Uyelindo, Operator Multimedia, Operator SIAK & IT Specialist.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profil/billie.jpg">
+
+  <!-- Favicon / Fonts / Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Custom Glowing Mouse Spotlight -->
+  <div id="cursor-glow"></div>
+
+  <!-- Canvas Interactive Cyber Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+        <span class="logo-text">BILLIE<span>PALLO</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> Data Diri</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Pengalaman</a>
+        <a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Prestasi</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Keahlian</a>
+        <a href="#kegiatan" class="nav-link"><i class="fa-solid fa-book-open"></i> Kegiatan</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Proyek</a>
+        <a href="#certificates" class="nav-link"><i class="fa-solid fa-award"></i> Sertifikat</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Kontak</a>
+        <div class="nav-mobile-tools mobile-only">
+          <button id="bg-mode-btn-mobile" class="btn btn-sm btn-secondary">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Mode Background
+          </button>
+          <button id="cli-btn-mobile" class="btn btn-sm btn-secondary">
+            <i class="fa-solid fa-terminal"></i> Cyber CLI Terminal
+          </button>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="bg-mode-btn" class="icon-btn tool-btn" aria-label="Ubah Background"
+          title="Ganti Mode Latar Belakang (Constellation / Matrix / Warp)">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </button>
+        <button id="cli-btn" class="icon-btn tool-btn" aria-label="Buka CLI Terminal" title="Buka Cyber Terminal CLI">
+          <i class="fa-solid fa-terminal"></i>
+        </button>
+        <button id="theme-toggle" class="icon-btn" aria-label="Ubah Tema" title="Ubah Mode Gelap / Terang">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-nav-cta">
+          <span>Hubungi Saya</span> <i class="fa-solid fa-paper-plane"></i>
+        </a>
+        <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content reveal-on-scroll">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for Multimedia & IT Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-greeting">Halo, Saya</span>
+            <span class="name-span gradient-text">Billie Bernmarc Bungtilu <span class="name-nowrap">Pallo, S.Kom.</span></span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span id="typing-text">S1 Informatika — Universitas Uyelindo</span>
+            <span class="cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            Sarjana <strong>Informatika (S1)</strong> dari <strong>Universitas Uyelindo</strong> (IPK
+            <strong>3.68</strong>).
+            Memiliki semangat belajar tinggi, disiplin, berdedikasi, serta berpengalaman sebagai
+            <strong>Operator Multimedia</strong>, <strong>Petugas Pelayanan / Operator SIAK</strong>,
+            <strong>Analis Data</strong>, dan <strong>Pemrograman Web</strong> modern.
+          </p>
+
+          <div class="hero-info-chips">
+            <div class="chip"><i class="fa-solid fa-location-dot"></i> Kupang, NTT</div>
+            <div class="chip"><i class="fa-solid fa-graduation-cap"></i> S1 Informatika • IPK 3.68</div>
+            <div class="chip"><i class="fa-solid fa-award"></i> Operator Komputer Senior (LSP)</div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#experience" class="btn btn-primary btn-glow">
+              <span>Pengalaman & Karier</span> <i class="fa-solid fa-briefcase"></i>
+            </a>
+            <button type="button" class="btn btn-secondary open-biodata-trigger">
+              <i class="fa-solid fa-id-card"></i> <span>Lihat Biodata</span>
+            </button>
+            <a href="https://wa.me/6282298234044" target="_blank" class="btn btn-outline">
+              <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Counter Stats -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-num-wrapper">
+                <span class="stat-num" data-target="3.68">3.68</span>
+              </div>
+              <span class="stat-label">IPK Sangat Memuaskan</span>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num-wrapper">
+                <span class="stat-num" data-target="3">3</span><span class="stat-plus">+</span>
+              </div>
+              <span class="stat-label">Pengalaman Kerja</span>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num-wrapper">
+                <span class="stat-num" data-target="10">10</span><span class="stat-plus">+</span>
+              </div>
+              <span class="stat-label">Prestasi & Sertifikat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal-on-scroll">
+          <div class="profile-card-glass tilt-card">
+            <div class="profile-image-container">
+              <img src="assets/profil/billie.jpg" alt="Billie Bernmarc Bungtilu Pallo, S.Kom." class="profile-img">
+              <div class="profile-overlay-gradient"></div>
+              <div class="profile-card-footer">
+                <h3>Billie Bernmarc Bungtilu Pallo, S.Kom.</h3>
+                <p>S1 Informatika • Multimedia Specialist</p>
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="hero-badges-wrapper">
+              <div class="floating-badge badge-1">
+                <i class="fa-solid fa-video"></i> Operator Multimedia
+              </div>
+              <div class="floating-badge badge-2">
+                <i class="fa-solid fa-graduation-cap"></i> S1 Informatika (3.68)
+              </div>
+              <div class="floating-badge badge-3">
+                <i class="fa-solid fa-id-card-clip"></i> Operator SIAK Disdukcapil
+              </div>
+              <div class="floating-badge badge-4">
+                <i class="fa-solid fa-award"></i> Operator Komputer Senior
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE FLOATING CODE EDITOR -->
+    <section class="code-editor-section reveal-on-scroll">
+      <div class="glass-card code-editor-card">
+        <div class="editor-header">
+          <div class="editor-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="editor-filename"><i class="fa-brands fa-python"></i> billie_core_profile.py</div>
+        </div>
+        <div class="editor-body">
+          <pre><code><span class="code-keyword">class</span> <span class="code-class">BilliePallo</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.degree = <span class="code-str">"S1 Informatika — Universitas Uyelindo"</span>
+        self.gpa = 3.68  <span class="code-comment"># Sangat Memuaskan</span>
+        self.roles = [<span class="code-str">"Operator Multimedia"</span>, <span class="code-str">"Operator SIAK"</span>, <span class="code-str">"Data Analyst"</span>, <span class="code-str">"Web Dev"</span>]
+        self.cert = <span class="code-str">"Operator Komputer Senior (LSP Informatika / BNSP)"</span>
+        self.location = <span class="code-str">"Oetete, Kupang, NTT"</span>
+        self.email = <span class="code-str">"billypallo5@gmail.com"</span>
+
+    <span class="code-keyword">def</span> <span class="code-func">solve_challenge</span>(self):
+        <span class="code-keyword">return</span> <span class="code-str">"Semangat belajar tinggi, disiplin, berdedikasi individu & tim!"</span>
+
+<span class="code-comment"># Inisialisasi Profil Billie</span>
+billie = BilliePallo()
+print(billie.solve_challenge())</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFINITE TECH MARQUEE TICKER -->
+    <div class="tech-marquee-wrapper reveal-on-scroll">
+      <div class="tech-marquee-track">
+        <div class="tech-marquee-content">
+          <span><i class="fa-solid fa-video"></i> OPERATOR MULTIMEDIA GMIT KEFAS</span>
+          <span><i class="fa-solid fa-graduation-cap"></i> S1 INFORMATIKA UYELINDO (IPK 3.68)</span>
+          <span><i class="fa-solid fa-award"></i> OPERATOR KOMPUTER SENIOR (LSP)</span>
+          <span><i class="fa-solid fa-id-card-clip"></i> PETUGAS PELAYANAN / OPERATOR SIAK</span>
+          <span><i class="fa-solid fa-chart-line"></i> ANALIS DATA & TABULASI CEPAT</span>
+          <span><i class="fa-solid fa-code"></i> PEMROGRAMAN WEB MODERN</span>
+          <span><i class="fa-solid fa-trophy"></i> JUARA 3 NASIONAL KAVINYA LLDIKTI XV</span>
+          <span><i class="fa-solid fa-photo-film"></i> VIDEOGRAFI & EDITING KONTEN</span>
+        </div>
+        <div class="tech-marquee-content" aria-hidden="true">
+          <span><i class="fa-solid fa-video"></i> OPERATOR MULTIMEDIA GMIT KEFAS</span>
+          <span><i class="fa-solid fa-graduation-cap"></i> S1 INFORMATIKA UYELINDO (IPK 3.68)</span>
+          <span><i class="fa-solid fa-award"></i> OPERATOR KOMPUTER SENIOR (LSP)</span>
+          <span><i class="fa-solid fa-id-card-clip"></i> PETUGAS PELAYANAN / OPERATOR SIAK</span>
+          <span><i class="fa-solid fa-chart-line"></i> ANALIS DATA & TABULASI CEPAT</span>
+          <span><i class="fa-solid fa-code"></i> PEMROGRAMAN WEB MODERN</span>
+          <span><i class="fa-solid fa-trophy"></i> JUARA 3 NASIONAL KAVINYA LLDIKTI XV</span>
+          <span><i class="fa-solid fa-photo-film"></i> VIDEOGRAFI & EDITING KONTEN</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DATA DIRI & ABOUT SECTION -->
+    <section id="about" class="section about-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-user-gear"></i> TENTANG SAYA</span>
+        <h2 class="section-title">Profil & Data Diri</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Card 1: Biodata Info -->
+        <div class="glass-card biodata-card tilt-card reveal-on-scroll">
+          <div class="card-header">
+            <i class="fa-solid fa-id-card card-icon"></i>
+            <h3>Informasi Personal</h3>
+          </div>
+          <ul class="biodata-list">
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-user"></i> Nama Lengkap</span>
+              <span class="bio-val">BILLIE BERNMARC BUNGTILU PALLO, S.Kom.</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-cake-candles"></i> Tempat / Tgl Lahir</span>
+              <span class="bio-val">Maumere, 28 Oktober 2003</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-mars"></i> Jenis Kelamin</span>
+              <span class="bio-val">Laki-Laki</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-ring"></i> Status</span>
+              <span class="bio-val">Belum Kawin</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-flag"></i> Kewarganegaraan</span>
+              <span class="bio-val">Indonesia</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-map-location-dot"></i> Domisili</span>
+              <span class="bio-val">Oetete, Oebobo, Kota Kupang, NTT</span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-phone"></i> No. Telepon / WA</span>
+              <span class="bio-val"><a href="https://wa.me/6282298234044" target="_blank">082298234044</a></span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-envelope"></i> Email</span>
+              <span class="bio-val"><a href="mailto:billypallo5@gmail.com">billypallo5@gmail.com</a></span>
+            </li>
+            <li>
+              <span class="bio-label"><i class="fa-solid fa-graduation-cap"></i> Pendidikan</span>
+              <span class="bio-val">S1 Universitas Uyelindo (IPK 3.68)</span>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-sm btn-primary open-biodata-trigger"
+            style="margin-top: 18px; width: 100%;">
+            <i class="fa-solid fa-id-card"></i> <span>Lihat Informasi Biodata Lengkap</span>
+          </button>
+        </div>
+
+        <!-- Card 2: Narrative & Overview -->
+        <div class="glass-card overview-card tilt-card reveal-on-scroll">
+          <div class="card-header">
+            <i class="fa-solid fa-bullseye card-icon"></i>
+            <h3>Ringkasan Profesional</h3>
+          </div>
+          <p class="about-text">
+            Saya adalah pribadi yang memiliki <strong>semangat belajar tinggi</strong>, <strong>disiplin</strong>,
+            <strong>bertanggung jawab</strong>, dan mampu bekerja secara <strong>individu maupun dalam tim</strong>.
+          </p>
+          <p class="about-text">
+            Memiliki latar belakang pendidikan <strong>S1 Informatika di Universitas Uyelindo</strong> dengan capaian
+            akademik <strong>IPK 3.68</strong>. Berpengalaman nyata dalam operasional multimedia siaran langsung,
+            pelayanan publik & verifikasi database SIAK kependudukan, serta analisis data dan rekapitulasi cepat.
+          </p>
+
+          <div class="highlight-boxes">
+            <div class="h-box">
+              <i class="fa-solid fa-brain"></i>
+              <div>
+                <h4>Semangat Belajar & Disiplin</h4>
+                <p>Cepat menguasai teknologi baru, teliti dalam pengolahan data, dan adaptif terhadap instruksi kerja.
+                </p>
+              </div>
+            </div>
+            <div class="h-box">
+              <i class="fa-solid fa-people-group"></i>
+              <div>
+                <h4>Kerja Sama Tim & Pelayanan</h4>
+                <p>Mampu berkomunikasi profesional, berintegritas tinggi dalam melayani masyarakat dan stakeholder.</p>
+              </div>
+            </div>
+            <div class="h-box">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <h4>Kompetensi Komputer & Multimedia</h4>
+                <p>Tersertifikasi Operator Komputer Senior LSP Informatika / BNSP, andal dalam live streaming &
+                  analitika.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENGALAMAN KERJA & PENDIDIKAN FORMAL SECTION -->
+    <section id="experience" class="section experience-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-briefcase"></i> RIWAYAT KARIER & PENDIDIKAN</span>
+        <h2 class="section-title">Pengalaman Kerja & Pendidikan</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Pengalaman Kerja 1 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"><i class="fa-solid fa-video"></i></div>
+          <div class="glass-card timeline-card tilt-card">
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Februari 2025 - November 2026</span>
+            <h3>Operator Multimedia</h3>
+            <span class="timeline-org"><i class="fa-solid fa-church"></i> GMIT Kefas • Oetete, Oebobo, KOTA KUPANG, NUSA
+              TENGGARA TIMUR</span>
+            <p>
+              Bertanggung jawab penuh atas pengelolaan operasional audio-visual, transmisi live streaming ibadah dan
+              kegiatan gereja, tata suara sound system, pemeliharaan perangkat keras multimedia, serta dokumentasi dan
+              publikasi media digital.
+            </p>
+            <span class="doc-badge"><i class="fa-solid fa-file-contract"></i> Bukti Riwayat Pekerjaan</span>
+          </div>
+        </div>
+
+        <!-- Pengalaman Kerja 2 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"><i class="fa-solid fa-id-card-clip"></i></div>
+          <div class="glass-card timeline-card tilt-card">
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Juli 2025 - Agustus 2025</span>
+            <h3>Petugas Pelayan / Operator SIAK</h3>
+            <span class="timeline-org"><i class="fa-solid fa-landmark"></i> Dinas Kependudukan dan Pencatatan Sipil
+              Kabupaten Belu • Kota Atambua, KAB. BELU, NTT</span>
+            <p>
+              Melayani pengurusan administrasi kependudukan masyarakat secara langsung, mengoperasikan Sistem Informasi
+              Administrasi Kependudukan (SIAK), melakukan verifikasi berkas digital, pencetakan dokumen kependudukan,
+              dan penataan arsip database sipil.
+            </p>
+            <span class="doc-badge"><i class="fa-solid fa-file-lines"></i> Bukti Riwayat Pekerjaan</span>
+          </div>
+        </div>
+
+        <!-- Pengalaman Kerja 3 -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="glass-card timeline-card tilt-card">
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2024</span>
+            <h3>Operator Penghitungan Cepat (Quick Count)</h3>
+            <span class="timeline-org"><i class="fa-solid fa-building"></i> Kantor Nasdem Kota Kupang • KOTA KUPANG,
+              NUSA TENGGARA TIMUR</span>
+            <p>
+              Melakukan input data hasil perolehan suara secara real-time, tabulasi formulir rekapitulasi C1, verifikasi
+              akurasi angka secara sistematis, dan penyusunan pelaporan tabulasi data pemilu yang transparan dan akurat.
+            </p>
+            <span class="doc-badge"><i class="fa-solid fa-database"></i> Rekapitulasi Data Terverifikasi</span>
+          </div>
+        </div>
+
+        <!-- Pendidikan Formal -->
+        <div class="timeline-item reveal-on-scroll">
+          <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="glass-card timeline-card tilt-card">
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Tahun 2022 - 2026</span>
+            <h3>Universitas Uyelindo — Sarjana (S1) Informatika</h3>
+            <span class="timeline-org"><i class="fa-solid fa-award"></i> IPK: 3.68 (Predikat Sangat Memuaskan) • Oetete,
+              Oebobo, KOTA KUPANG, NTT</span>
+            <p>
+              Menyelesaikan pendidikan Strata 1 (S1) program studi Informatika dengan prestasi akademik tinggi. Fokus
+              studi mencakup Pemrograman Web, Rekayasa Perangkat Lunak, Pengolahan Citra, Basis Data Relasional, dan
+              Analisis Sistem Komputer.
+            </p>
+            <span class="doc-badge"><i class="fa-solid fa-file-shield"></i> Ijasah Pendidikan Resmi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENCAPAIAN, SERTIFIKASI & PRESTASI SECTION -->
+    <section id="achievements" class="section cert-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-trophy"></i> PENCAPAIAN & KOMPETENSI RESMI</span>
+        <h2 class="section-title">Sertifikasi & Prestasi</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Prestasi 1: Juara 3 Nasional Kavinya -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll">
+          <div class="cert-badge-top"><i class="fa-solid fa-trophy"></i> Inovasi Digital</div>
+          <div class="cert-info" style="padding-top: 15px;">
+            <span class="cert-issuer">LLDIKTI Wilayah 15 • Mei 2026</span>
+            <h3>Juara 3 Nasional Kavinya</h3>
+            <p>Juara 3 Lomba Inovasi Digital tingkat Nasional yang diselenggarakan oleh LLDIKTI Wilayah 15 bersama
+              perguruan tinggi bidang teknologi informasi.</p>
+            <span class="doc-badge"><i class="fa-solid fa-certificate"></i> Dokumen Pencapaian</span>
+          </div>
+        </div>
+
+        <!-- Prestasi 2: Juara Favorit 1 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll">
+          <div class="cert-badge-top"><i class="fa-solid fa-medal"></i> Karya Ilmiah</div>
+          <div class="cert-info" style="padding-top: 15px;">
+            <span class="cert-issuer">Stikom Uyelindo Kupang • November 2024</span>
+            <h3>Juara Favorit 1</h3>
+            <p>Penghargaan Juara Favorit 1 pada Lomba Pameran Karya Ilmiah bidang manufaktur dan teknologi terapan
+              teruji.</p>
+            <span class="doc-badge"><i class="fa-solid fa-star"></i> Dokumen Pencapaian</span>
+          </div>
+        </div>
+
+        <!-- Prestasi 3: Pemateri IT Bootcamp -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll">
+          <div class="cert-badge-top"><i class="fa-solid fa-chalkboard-user"></i> Instruktur & Pemateri</div>
+          <div class="cert-info" style="padding-top: 15px;">
+            <span class="cert-issuer">Universitas Uyelindo • September 2026</span>
+            <h3>Kelas IT Bootcamp Pemateri</h3>
+            <p>Dipercaya sebagai pemateri dan instruktur pelatihan teknologi informasi (IT Bootcamp) untuk membekali
+              keterampilan digital dan pemrograman praktis.</p>
+            <span class="doc-badge"><i class="fa-solid fa-file-lines"></i> Dokumen Pencapaian</span>
+          </div>
+        </div>
+
+        <!-- Sertifikasi: Operator Komputer Senior -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll">
+          <div class="cert-badge-top"><i class="fa-solid fa-award"></i> Lisensi BNSP</div>
+          <div class="cert-info" style="padding-top: 15px;">
+            <span class="cert-issuer">Lembaga Sertifikasi Profesi INFORMATIKA • Sep 2026 - Sep 2029</span>
+            <h3>Operator Komputer Senior</h3>
+            <p>Sertifikasi kompetensi resmi tingkat lanjut berstandar SKKNI bidang pengoperasian perangkat lunak
+              perkantoran, keamanan data, dan otomasi kerja.</p>
+            <span class="doc-badge"><i class="fa-solid fa-shield-halved"></i> Dokumen Sertifikasi Terlisensi</span>
+          </div>
+        </div>
+
+        <!-- Seminar: SEMMAU-VIII -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll">
+          <div class="cert-badge-top"><i class="fa-solid fa-graduation-cap"></i> Konferensi Ilmiah</div>
+          <div class="cert-info" style="padding-top: 15px;">
+            <span class="cert-issuer">Seminar & Konferensi Ilmiah Nasional (SEMMAU-VIII) • November 2022</span>
+            <h3>Informasi Teknologi dan Komunikasi</h3>
+            <p>Keikutsertaan aktif dalam seminar dan konferensi ilmiah nasional bidang riset teknologi informasi, sistem
+              komputasi, dan komunikasi digital.</p>
+            <span class="doc-badge"><i class="fa-solid fa-file-signature"></i> Sertifikat Pelatihan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOKUMENTASI KEGIATAN (3D INTERACTIVE BOOK FLIP ANIMATION) -->
+    <section id="kegiatan" class="section kegiatan-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-book-open"></i> DOKUMENTASI & GALERI</span>
+        <h2 class="section-title">Buku Kegiatan Interaktif</h2>
+        <p class="section-desc-sub" style="max-width: 680px; margin: 12px auto 0; color: var(--text-muted);">
+          Jelajahi rekam jejak kegiatan, seminar, pelatihan, hingga momen penting Billie Bernmarc Bungtilu Pallo melalui
+          animasi 3D buka
+          buku (3D Photobook) di bawah ini.
+        </p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="book-container reveal-on-scroll">
+        <!-- Controls Bar -->
+        <div class="book-controls">
+          <button id="book-prev-btn" class="btn btn-sm btn-secondary" title="Halaman Sebelumnya">
+            <i class="fa-solid fa-chevron-left"></i> <span>Sebelumnya</span>
+          </button>
+
+          <div class="book-page-indicator">
+            <span id="book-page-num">Sampul Depan</span>
+          </div>
+
+          <button id="book-next-btn" class="btn btn-sm btn-primary" title="Halaman Selanjutnya">
+            <span>Selanjutnya</span> <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <button id="book-auto-btn" class="btn btn-sm btn-outline" title="Putar Otomatis Animasi Buka Buku">
+            <i class="fa-solid fa-play"></i> <span>Auto Turn</span>
+          </button>
+
+          <button id="book-reset-btn" class="btn btn-sm btn-secondary" title="Kembali ke Sampul Depan">
+            <i class="fa-solid fa-book-bookmark"></i> <span>Tutup Buku</span>
+          </button>
+        </div>
+
+        <!-- 3D Book Viewport -->
+        <div class="book-stage-wrapper">
+          <div class="book-3d" id="book-3d">
+            <div class="book-spine"></div>
+
+            <!-- SHEET 0: COVER PAGE -->
+            <div class="book-sheet sheet-cover" id="sheet-0" style="z-index: 10;">
+              <!-- Front Face (Front Cover) -->
+              <div class="page-face page-front cover-front">
+                <div class="cover-gold-border"></div>
+                <div class="cover-content">
+                  <div class="cover-badge"><i class="fa-solid fa-shield-halved"></i> INFORMATIKA & TECH</div>
+                  <h2 class="cover-title">BUKU KEGIATAN</h2>
+                  <h3 class="cover-subtitle">& DOKUMENTASI PORTFOLIO</h3>
+                  <div class="cover-divider"></div>
+                  <p class="cover-author">Billie Bernmarc Bungtilu Pallo, S.Kom.</p>
+                  <div class="cover-hint">
+                    <i class="fa-solid fa-hand-pointer"></i> Klik halaman atau tombol untuk membuka buku
+                  </div>
+                </div>
+              </div>
+              <!-- Back Face (Inside Front Cover) -->
+              <div class="page-face page-back inside-cover">
+                <div class="page-header-badge"><i class="fa-solid fa-bookmark"></i> PENGANTAR</div>
+                <div class="inside-cover-body">
+                  <h3>Selamat Datang di Photobook Kegiatan</h3>
+                  <p>
+                    Buku digital ini merangkum serangkaian aktivitas akademik, pelatihan teknis, kompetisi keamanan
+                    siber, hingga keterlibatan sosial dan pengabdian masyarakat.
+                  </p>
+                  <ul class="book-index-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 10 Foto Kegiatan Pilihan</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Animasi Flip 3D Realistis</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fitur Zoom & Autoplay</li>
+                  </ul>
+                </div>
+                <div class="page-footer-num">Hal. Cover Inside</div>
+              </div>
+            </div>
+
+            <!-- SHEET 1 (Foto 1 & Foto 2) -->
+            <div class="book-sheet" id="sheet-1" style="z-index: 9;">
+              <!-- Front Face (Foto 1) -->
+              <div class="page-face page-front">
+                <div class="page-header-badge"><i class="fa-solid fa-chalkboard-user"></i> PELATIHAN & INSTRUKTUR</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto1.jpeg" alt="Instruktur Cyber Security & IoT" class="page-photo"
+                    data-zoom="assets/kegiatan/foto1.jpeg"
+                    data-caption="Instruktur & Pelatihan Keamanan Siber (Cyber Security & IoT)">
+                  <span class="photo-badge">Foto 01</span>
+                </div>
+                <div class="page-details">
+                  <h4>Instruktur Cyber Security & IoT</h4>
+                  <p>Mendampingi serta memberikan materi instruksional di bidang keamanan jaringan siber dan perangkat
+                    cerdas Internet of Things (IoT).</p>
+                </div>
+                <div class="page-footer-num">Hal. 1</div>
+              </div>
+              <!-- Back Face (Foto 2) -->
+              <div class="page-face page-back">
+                <div class="page-header-badge"><i class="fa-solid fa-laptop-code"></i> PAMERAN INOVASI DIGITAL</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto2.jpeg" alt="Perancangan Arsitektur Web & DB" class="page-photo"
+                    data-zoom="assets/kegiatan/foto2.jpeg"
+                    data-caption="Pengembangan Sistem Informasi & Diskusi Proyek Software">
+                  <span class="photo-badge">Foto 02</span>
+                </div>
+                <div class="page-details">
+                  <h4>Pameran Inovasi Digital Si-Amir Show</h4>
+                  <p>Mengikuti lomba Pameran Inovasi Digita Si-Amir Show dengan pembuatan sistem informasi
+                     pelayanan gereja GMIT Ararat Haukoto dan berhasil mendapatkan juara faborit 1</p>
+                </div>
+                <div class="page-footer-num">Hal. 2</div>
+              </div>
+            </div>
+
+            <!-- SHEET 2 (Foto 3 & Foto 4) -->
+            <div class="book-sheet" id="sheet-2" style="z-index: 8;">
+              <!-- Front Face (Foto 3) -->
+              <div class="page-face page-front">
+                <div class="page-header-badge"><i class="fa-solid fa-trophy"></i> DOKUMENTASI</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto3.jpeg" alt="Finalis CSSC 2025 Jakarta" class="page-photo"
+                    data-zoom="assets/kegiatan/foto3.jpeg"
+                    data-caption="Finalis Cyber Security Startup Challenge (CSSC) 2025 di Jakarta">
+                  <span class="photo-badge">Foto 03</span>
+                </div>
+                <div class="page-details">
+                  <h4>Pengambilan Video Ucapan Dies Natalis STIKOM Uyelindo Kupang</h4>
+                  <p>Momen Pengambilan Video Ucapan Dies Natalis Oleh Ibu Wakil Walikota Kupang</p>
+                </div>
+                <div class="page-footer-num">Hal. 3</div>
+              </div>
+              <!-- Back Face (Foto 4) -->
+              <div class="page-face page-back">
+                <div class="page-header-badge"><i class="fa-solid fa-graduation-cap"></i> LOMBA INOVASI DIGITAL</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto4.jpeg" alt="Pertukaran Mahasiswa Merdeka (PMM 4)" class="page-photo"
+                    data-zoom="assets/kegiatan/foto4.jpeg"
+                    data-caption="Kegiatan Akademik & Program Pertukaran Mahasiswa Merdeka (PMM 4)">
+                  <span class="photo-badge">Foto 04</span>
+                </div>
+                <div class="page-details">
+                  <h4>Lomba Inovasi Digital PISMA IX</h4>
+                  <p>Mengikuti Lomba Pekan Ilmiah dan Seni Mahasiswa IX UNWIRA Kupang.
+                  </p>
+                </div>
+                <div class="page-footer-num">Hal. 4</div>
+              </div>
+            </div>
+
+            <!-- SHEET 3 (Foto 5 & Foto 6) -->
+            <div class="book-sheet" id="sheet-3" style="z-index: 7;">
+              <!-- Front Face (Foto 5) -->
+              <div class="page-face page-front">
+                <div class="page-header-badge"><i class="fa-solid fa-people-roof"></i> WORKSHOP & SEMINAR</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto5.jpeg" alt="Seminar & Workshop Informatika" class="page-photo"
+                    data-zoom="assets/kegiatan/foto5.jpeg"
+                    data-caption="Workshop Teknologi Informasi & Seminar Informatika">
+                  <span class="photo-badge">Foto 05</span>
+                </div>
+                <div class="page-details">
+                  <h4>Internasinal Seminar "FROM DATA TO DECISIONS"</h4>
+                  <p>Menjadi Panitia di bagian multimedia untuk menyelenggarakan Internasinal Seminar "FROM DATA TO DECISIONS" 
+                    dengan narasumber PROF. KEWEI SHA, PH.D Dari University Of North Texas, USA
+                  </p>
+                </div>
+                <div class="page-footer-num">Hal. 5</div>
+              </div>
+              <!-- Back Face (Foto 6) -->
+              <div class="page-face page-back">
+                <div class="page-header-badge"><i class="fa-solid fa-bullhorn"></i> OPERATOR SIAK</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto6.jpeg" alt="Pemateri Masa Bimbingan Mahasiswa" class="page-photo"
+                    data-zoom="assets/kegiatan/foto6.jpeg"
+                    data-caption="Pemateri & Mentoring Masa Bimbingan Mahasiswa Baru (MABIM)">
+                  <span class="photo-badge">Foto 06</span>
+                </div>
+                <div class="page-details">
+                  <h4>Petugas Operator SIAK di DISDUKCAPIL BELU</h4>
+                  <p>melakukan magan di Kantor Disdukcapil Kabupaten Belu dan ditugasakan untuk menjadi operator Siak untuk melayani masyarakat 
+                    dalam pembuatan dan pencetakan Dokumen Kependudukan </p>
+                </div>
+                <div class="page-footer-num">Hal. 6</div>
+              </div>
+            </div>
+
+            <!-- SHEET 4 (Foto 7 & Foto 8) -->
+            <div class="book-sheet" id="sheet-4" style="z-index: 6;">
+              <!-- Front Face (Foto 7) -->
+              <div class="page-face page-front">
+                <div class="page-header-badge"><i class="fa-solid fa-diagram-project"></i> INOVASI DIGITAL</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto7.jpeg" alt="Pameran & Demo Karya Terapan" class="page-photo"
+                    data-zoom="assets/kegiatan/foto7.jpeg"
+                    data-caption="Pameran Inovasi Digital & Demo Perangkat Lunak Terapan">
+                  <span class="photo-badge">Foto 07</span>
+                </div>
+                <div class="page-details">
+                  <h4>Pameran Inovasi Digital</h4>
+                  <p>Demonstrasi sistem dan showcase hasil karya proyek software di hadapan audiens dan penguji.</p>
+                </div>
+                <div class="page-footer-num">Hal. 7</div>
+              </div>
+              <!-- Back Face (Foto 8) -->
+              <div class="page-face page-back">
+                <div class="page-header-badge"><i class="fa-solid fa-network-wired"></i> JUARA TINGKAT NASIONAL</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto8.jpeg" alt="Pengujian Infrastruktur Jaringan" class="page-photo"
+                    data-zoom="assets/kegiatan/foto8.jpeg"
+                    data-caption="Sesi Kolaborasi & Pengujian Infrastruktur Jaringan Komputer">
+                  <span class="photo-badge">Foto 08</span>
+                </div>
+                <div class="page-details">
+                  <h4>Juara 3 KAVINYA</h4>
+                  <p>Meraih Juara 3 dalam ajang lomba tingkat nasional yang diselenggarakan oleh LLDIKTI Wilayah XV dan
+                    STIKOM Uyelindo Kupang.</p>
+                </div>
+                <div class="page-footer-num">Hal. 8</div>
+              </div>
+            </div>
+
+            <!-- SHEET 5 (Foto 9 & Foto 10) -->
+            <div class="book-sheet" id="sheet-5" style="z-index: 5;">
+              <!-- Front Face (Foto 9) -->
+              <div class="page-face page-front">
+                <div class="page-header-badge"><i class="fa-solid fa-handshake-angle"></i> PEMBUATAN SISTEM</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto9.jpeg" alt="Kegiatan Organisasi & Sosial" class="page-photo"
+                    data-zoom="assets/kegiatan/foto9.jpeg"
+                    data-caption="Kegiatan Organisasi & Pengabdian Masyarakat Informatika">
+                  <span class="photo-badge">Foto 09</span>
+                </div>
+                <div class="page-details">
+                  <h4>Pembuatan Sistem Survey Kepuasan Layanan</h4>
+                  <p>Membuat Sistem Survey Kepuasan Layanan untuk mempermudah petugas dan masyarakat dalam mengisi survey dan melihat statistik Survey </p>
+                </div>
+                <div class="page-footer-num">Hal. 9</div>
+              </div>
+              <!-- Back Face (Foto 10) -->
+              <div class="page-face page-back">
+                <div class="page-header-badge"><i class="fa-solid fa-award"></i> KELULUSAN & PRESTASI</div>
+                <div class="page-photo-card">
+                  <img src="assets/kegiatan/foto10.jpeg" alt="Kelulusan S1 Teknik Informatika" class="page-photo"
+                    data-zoom="assets/kegiatan/foto10.jpeg"
+                    data-caption="Momen Kelulusan & Apresiasi Prestasi Akademik Informatika">
+                  <span class="photo-badge">Foto 10</span>
+                </div>
+                <div class="page-footer-num">Hal. 10</div>
+                <div class="page-details">
+                  <h4>Momen Kelulusan Informatika</h4>
+                  <p>Puncak pencapaian akademis S1 Teknik Informatika sebagai awal melangkah di dunia industri teknologi
+                    profesional.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SHEET 6: BACK COVER -->
+            <div class="book-sheet sheet-cover-back" id="sheet-6" style="z-index: 4;">
+              <!-- Front Face (Inside Back Cover) -->
+              <div class="page-face page-front inside-cover">
+                <div class="page-header-badge"><i class="fa-solid fa-check-double"></i> PENUTUP</div>
+                <div class="inside-cover-body">
+                  <h3>Terima Kasih telah Membaca!</h3>
+                  <p>Setiap foto merekam langkah, perjuangan, dan komitmen untuk terus tumbuh di dunia Teknologi
+                    Informasi.</p>
+                  <a href="#contact" class="btn btn-sm btn-primary" style="margin-top: 15px;">
+                    <i class="fa-solid fa-paper-plane"></i> Hubungi Billie Pallo
+                  </a>
+                </div>
+                <div class="page-footer-num">Hal. End</div>
+              </div>
+              <!-- Back Face (Outer Back Cover) -->
+              <div class="page-face page-back cover-back">
+                <div class="cover-gold-border"></div>
+                <div class="cover-content">
+                  <div class="logo-icon" style="margin: 0 auto 15px;"><i class="fa-solid fa-bolt"></i></div>
+                  <h2>BILLIE PALLO</h2>
+                  <p>S1 Informatika • Multimedia Specialist</p>
+                  <p class="copyright-tag">&copy; 2026 All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Thumbnails Navigation Bar -->
+        <div class="book-thumbnails-bar">
+          <button class="thumb-item active" data-sheet="0">
+            <i class="fa-solid fa-book"></i> <span>Sampul</span>
+          </button>
+          <button class="thumb-item" data-sheet="1">
+            <img src="assets/kegiatan/foto1.jpeg" alt="Thumb 1"> <span>Foto 1-2</span>
+          </button>
+          <button class="thumb-item" data-sheet="2">
+            <img src="assets/kegiatan/foto3.jpeg" alt="Thumb 3"> <span>Foto 3-4</span>
+          </button>
+          <button class="thumb-item" data-sheet="3">
+            <img src="assets/kegiatan/foto5.jpeg" alt="Thumb 5"> <span>Foto 5-6</span>
+          </button>
+          <button class="thumb-item" data-sheet="4">
+            <img src="assets/kegiatan/foto7.jpeg" alt="Thumb 7"> <span>Foto 7-8</span>
+          </button>
+          <button class="thumb-item" data-sheet="5">
+            <img src="assets/kegiatan/foto9.jpeg" alt="Thumb 9"> <span>Foto 9-10</span>
+          </button>
+          <button class="thumb-item" data-sheet="6">
+            <i class="fa-solid fa-book-open"></i> <span>Penutup</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEAHLIAN & BAHASA SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-gears"></i> KOMPETENSI TEKNIS & MULTIMEDIA</span>
+        <h2 class="section-title">Keahlian & Kemampuan Bahasa</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Quick Skill Badges (Matching Uploaded Image 2) -->
+      <div class="skills-pills-wrap reveal-on-scroll" style="justify-content: center; margin-bottom: 40px;">
+        <span class="skill-pill-cyber"><i class="fa-solid fa-briefcase"></i> Operator Kantor</span>
+        <span class="skill-pill-cyber"><i class="fa-solid fa-chart-line"></i> Analis data</span>
+        <span class="skill-pill-cyber"><i class="fa-solid fa-code"></i> pemrograman web</span>
+        <span class="skill-pill-cyber"><i class="fa-solid fa-film"></i> Mengedit video</span>
+        <span class="skill-pill-cyber"><i class="fa-solid fa-palette"></i> mengedit poster/brosur</span>
+        <span class="skill-pill-cyber"><i class="fa-solid fa-video"></i> Videografis</span>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Operator Kantor -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-1">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <h3>Operator Kantor</h3>
+          <p class="skill-desc">Tersertifikasi Operator Komputer Senior LSP Informatika. Mahir administrasi digital,
+            spreadsheet lanjutan, dan otomasi dokumen.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Office & Administration Mastery</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Operator Komputer Senior</span>
+            <span class="tag">LSP Informatika</span>
+            <span class="tag">Pengolahan Data</span>
+            <span class="tag">Spreadsheet Lanjut</span>
+            <span class="tag">Arsip Digital</span>
+          </div>
+        </div>
+
+        <!-- 2. Analis Data -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-2">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Analis Data</h3>
+          <p class="skill-desc">Kemampuan validasi numerik cepat, tabulasi data quick count, rekapitulasi data
+            kependudukan SIAK, dan struktur database.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Data Accuracy & Analytics</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Tabulasi Cepat</span>
+            <span class="tag">Sistem SIAK</span>
+            <span class="tag">MySQL Database</span>
+            <span class="tag">Verifikasi Berkas</span>
+            <span class="tag">Excel Analytics</span>
+          </div>
+        </div>
+
+        <!-- 3. Pemrograman Web -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-3">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3>Pemrograman Web</h3>
+          <p class="skill-desc">Pengembangan website responsif, antarmuka pengguna interaktif, arsitektur database, dan
+            integrasi backend modern.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Web Programming & Logic</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">HTML5 & CSS3</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Responsive UI</span>
+          </div>
+        </div>
+
+        <!-- 4. Videografi -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-4">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <h3>Videografis & Live Streaming</h3>
+          <p class="skill-desc">Pengoperasian kamera profesional, transmisi live streaming ibadah GMIT Kefas, manajemen
+            switcher, dan tata suara audio-visual.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Broadcast & Videography</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Operator Multimedia</span>
+            <span class="tag">Live Streaming</span>
+            <span class="tag">OBS Studio / vMix</span>
+            <span class="tag">Camera Handling</span>
+          </div>
+        </div>
+
+        <!-- 5. Mengedit Video -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-5">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <h3>Mengedit Video</h3>
+          <p class="skill-desc">Produksi dan pasca-produksi video kegiatan, pemotongan transisi dinamis, sinkronisasi
+            audio, color grading, dan pembuatan konten media sosial.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Video Editing & Post-Production</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">CapCut Pro</span>
+            <span class="tag">Color Grading</span>
+            <span class="tag">Audio Mixing</span>
+            <span class="tag">Konten Digital</span>
+          </div>
+        </div>
+
+        <!-- 6. Mengedit Poster / Brosur & Bahasa -->
+        <div class="glass-card skill-card tilt-card reveal-on-scroll">
+          <div class="skill-icon-wrapper color-6">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <h3>Mengedit Poster/Brosur & Bahasa</h3>
+          <p class="skill-desc">Pembuatan visual media promosi publikasi, poster seminar, brosur acara resmi, serta
+            komunikasi dwibahasa aktif.</p>
+          <div class="skill-bar-container">
+            <div class="skill-bar-label"><span>Graphic Design & Communication</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Canva Pro</span>
+            <span class="tag">Desain Poster</span>
+            <span class="tag">Bahasa Indonesia (Fasih)</span>
+            <span class="tag">Bahasa Inggris (Menengah)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYEK SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-folder-open"></i> HASIL KARYA</span>
+        <h2 class="section-title">Proyek Yang Pernah Dikerjakan</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="project-filters reveal-on-scroll">
+        <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+        <button class="filter-btn" data-filter="web">Web Application</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning & Data</button>
+        <button class="filter-btn" data-filter="system">Sistem Informasi</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Smart Waste -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="ml web">
+          <div class="project-img-wrapper">
+            <img src="assets/web/sistem infromasi dan manajemen sampah.png" alt="Sistem Informasi dan Manajemen Sampah"
+              class="project-img">
+            <div class="project-badge">Machine Learning</div>
+            <div class="project-overlay">
+              <button class="btn btn-sm btn-light open-project-modal" data-id="p1">
+                <i class="fa-solid fa-eye"></i> Detail Proyek
+              </button>
+              <a href="https://github.com/billiepallo-xyz/smartwaste-dki" target="_blank"
+                class="btn btn-sm btn-primary">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-code-branch"></i> Python & Web</span>
+            </div>
+            <h3 class="project-title">Smart Waste & Detection System</h3>
+            <p class="project-desc">
+              Sistem informasi manajemen sampah cerdas yang dilengkapi model prediksi volume dan klasifikasi sampah
+              otomatis berbasis CNN (Computer Vision).
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>TypeScript</span>
+              <span>Web Dashboard</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Booking Perumahan -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="web system">
+          <div class="project-img-wrapper">
+            <img src="assets/web/toko arduino.png" alt="Toko Arduino" class="project-img">
+            <div class="project-badge">Web Application</div>
+            <div class="project-overlay">
+              <button class="btn btn-sm btn-light open-project-modal" data-id="p2">
+                <i class="fa-solid fa-eye"></i> Detail Proyek
+              </button>
+              <a href="https://github.com/billiepallo-xyz/Booking-Perumahan" target="_blank"
+                class="btn btn-sm btn-primary">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-code-branch"></i> PHP & MySQL</span>
+            </div>
+            <h3 class="project-title">jasa & Layanan</h3>
+            <p class="project-desc">
+              Platform layanan pemesanan dan kustomisasi alat airduino secara online, memungkinkan pelanggan memilih.
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>HTML5/CSS3</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Booking Penjahit -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="web system">
+          <div class="project-img-wrapper">
+            <img src="assets/web/sistem informasi gereja.png" alt="Sistem Booking Penjahit" class="project-img">
+            <div class="project-badge">Platform Web</div>
+            <div class="project-overlay">
+              <button class="btn btn-sm btn-light open-project-modal" data-id="p3">
+                <i class="fa-solid fa-eye"></i> Detail Proyek
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-scissors"></i> Sistem Informasi Gereja</span>
+            </div>
+            <h3 class="project-title">Sistem Informasi dan Pelayan Gereja GMIT Ararat Haukoto</h3>
+            <p class="project-desc">
+             Sistem Informasi Gereja yang membantu pendataan jemaat dan pelayanan di Gereja Gmit Ararat Haukoto
+            </p>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>Database Relasional</span>
+              <span>UI Responsive</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Agen Samsat -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="system web">
+          <div class="project-img-wrapper">
+            <img src="assets/web/survey kepuasan.jpeg" alt="Aplikasi Layanan Agen SAMSAT" class="project-img">
+            <div class="project-badge">Sistem Layanan</div>
+            <div class="project-overlay">
+              <button class="btn btn-sm btn-light open-project-modal" data-id="p4">
+                <i class="fa-solid fa-eye"></i> Detail Proyek
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-car-side"></i> Pelayanan Publik</span>
+            </div>
+            <h3 class="project-title">Sistem Survey Kepuasaan Masyarakat Dukcapil </h3>
+            <p class="project-desc">
+              Web Yang membantu petugas dukcapil dalam pendataan survey kepuasan masyarakat terhadap pelayan di Dukcapil Belu
+            </p>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Manajemen Data</span>
+              <span>Laporan Publik</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Manajemen Data Gereja -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="system">
+          <div class="project-img-wrapper">
+            <img src="assets/web/klasifikasi sampah.png" alt="Manajemen Data Gereja dan Keuangan"
+              class="project-img">
+            <div class="project-badge">Computer Vision</div>
+            <div class="project-overlay">
+              <button class="btn btn-sm btn-light open-project-modal" data-id="p5">
+                <i class="fa-solid fa-eye"></i> Detail Proyek
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-church"></i> Computer Vision</span>
+            </div>
+            <h3 class="project-title">Klasifikasi Jenis Sampah Organik & Non Organik</h3>
+            <p class="project-desc">
+              Aplikasi untuk membedakan jenis sampah organik dan non organik berdasarkan gambar dan kamera realtime.
+            </p>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>Dataset Gambar</span>
+              <span>Grafik Tingkat akurasi</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Kasir Kosmetik -->
+        <article class="glass-card project-card tilt-card reveal-on-scroll" data-category="web">
+          <div class="project-img-wrapper placeholder-project">
+            <div class="pos-icon-box">
+              <i class="fa-solid fa-cash-register"></i>
+            </div>
+            <div class="project-badge">Point of Sale</div>
+            <div class="project-overlay">
+              <a href="https://github.com/billiepallo-xyz/kasir_cosmetik" target="_blank"
+                class="btn btn-sm btn-primary">
+                <i class="fa-brands fa-github"></i> Lihat GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span><i class="fa-solid fa-cart-shopping"></i> POS Application</span>
+            </div>
+            <h3 class="project-title">Aplikasi Kasir Kosmetik (Point of Sale)</h3>
+            <p class="project-desc">
+              Sistem kasir instan untuk pengelolaan toko kosmetik, stok barang, perhitungan total transaksi, diskon, dan
+              cetak bukti pembayaran.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>DOM Manipulation</span>
+              <span>Local Storage</span>
+              <span>UI Kasir</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERTIFIKAT & PRESTASI SECTION WITH REAL-TIME SEARCH -->
+    <section id="certificates" class="section cert-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-ribbon"></i> REKAP PRESTASI</span>
+        <h2 class="section-title">Sertifikat & Penghargaan</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Real-time Certificate Search Input -->
+      <div class="cert-search-box reveal-on-scroll">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="cert-search-input"
+          placeholder="Cari sertifikat (contoh: Cyber Security, PMM 4, Inovasi, Desain)...">
+      </div>
+
+      <div class="cert-grid" id="cert-grid">
+        <!-- Cert 1 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="Seminar dan Konferensi Ilmiah Nasional (SEMMAU-VIII)">
+          <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Seminar Nasional</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_Sertifikat seminar Nasional.png" alt="Serifikat Seminar Nasional"
+              class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">STIKOM Uyelindo Kupang • November 2022</span>
+            <h3>Peserta Seminar & Konferensi Ilmiah Nasional</h3>
+            <p>Berpartisipasi dalam Seminar dan Konferensi Ilmiah Nasional (SEMMAU-VIII) dengan
+               tema “Literasi Membangun Model Bisnis & Strategi Perusahaan Startup”. Kegiatan ini memperluas wawasan mengenai inovasi, literasi teknologi, 
+               serta pengembangan strategi bisnis berbasis digital</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Serifikat Seminar Nasional.pdf"
+              data-title="Seminar dan Konferensi Ilmiah Nasional (SEMMAU-VIII)">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="pmm 4 pertukaran mahasiswa merdeka kemendikbudristek it telkom purwokerto uyelindo">
+          <div class="cert-badge-top"><i class="fa-solid fa-graduation-cap"></i> Bootcamp 2026 </div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_Sertifikat bootcamp.png"
+              alt="Thumb_Sertifikat bootcamp" class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Universitas Uyelindo • September 2026</span>
+            <h3>Pemateri Bootcamp IT Class</h3>
+            <p>Dipercaya sebagai pemateri dalam kegiatan BABIM: Bootcamp IT Class yang diselenggarakan pada 19 September 2026 oleh panitia Bootcamp Universitas Uyelindo.
+               Berkontribusi dalam berbagi pengetahuan dan keterampilan teknologi informasi serta mendukung peningkatan kompetensi digital peserta.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal" data-file="assets/sertifikat/Sertifikat Bootcamp.pdf"
+              data-title="Sertifikat Bootcamp">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="instruktur cyber security iot instruktur jaringan pengajar">
+          <div class="cert-badge-top"><i class="fa-solid fa-chalkboard-user"></i> Bootcamp 2025</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_sertifikat bootcamp 2025.jpeg"
+              alt="Thumb_sertifikat bootcamp 2025" class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">STIKOM Uyelindo Kupang (HMPS Teknik Informatika S1)</span>
+            <h3>Instruktur Bootcamp ITECH CAMP – Cyber Security & Internet of Things</h3>
+            <p>Menjadi instruktur materi keamanan siber dan IoT pada bootcamp yang diselenggarakan Himpunan Mahasiswa 
+              Teknik Informatika, 13 September – 1 November 2025.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/sertifikat bootcamp2025.pdf"
+              data-title="sertifikat bootcamp2025">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="piagam penghargaan lomba kavinya inovasi digital software aplikasi">
+          <div class="cert-badge-top"><i class="fa-solid fa-trophy"></i> Inovasi Digital</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_sertifikat kavinya.png"
+              alt="Thumb_sertifikat kavinya" class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">LLDikti Wilayah XV</span>
+            <h3>Juara 3 Lomba Inovasi Digital KAVINYA</h3>
+            <p>Meraih juara 3 pada kompetisi inovasi digital tingkat perguruan tinggi wilayah XV yang diselenggarakan LLDikti Wilayah XV pada 2 Mei 2026.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Sertifikat Lomba Kavinya.pdf"
+              data-title="Sertifikat Lomba Kavinya">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 5 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="lomba desain grafis unika unika widya mandira pisma viii">
+          <div class="cert-badge-top"><i class="fa-solid fa-palette"></i> Sertifikasi</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_sertifikat LSP.png"
+              alt="Thumb_sertifikat LSP">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">LSP Informatika (Berlisensi BNSP)</span>
+            <h3>Skema Operator Komputer Senior</h3>
+            <p>Dinyatakan kompeten pada uji kompetensi skema Operator Komputer Senior (18 September 2026). 
+              Sertifikat kompetensi BNSP dalam proses penerbitan.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Sertifikat LSP.pdf"
+              data-title="Sertifikat LSP">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 6 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="prestasi manufaktur teknologi terapan 2024">
+          <div class="cert-badge-top"><i class="fa-solid fa-microchip"></i>Juara Favorit</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_Sertifikat Siamir Show.png"
+              alt="Thumb_Sertifikat Siamir Show" class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">STIKOM Uyelindo Kupang</span>
+            <h3>Juara Favorit 1 – Pameran Karya Ilmiah SIAMIR Show 2024</h3>
+            <p>Sistem Informasi dan Pelayanan Gereja GMIT Ararat Haukoto” meraih Juara 
+              Favorit 1 pada lomba pameran karya ilmiah, 29 November 2024.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Sertifikat Siamir Show.pdf"
+              data-title="Sertifikat Siamir Show">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 7 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="prestasi bidang akademik stikom uyelindo kupang ipk">
+          <div class="cert-badge-top"><i class="fa-solid fa-star"></i> Magang</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_Sertifikat Magang.png" alt="Thumb_Sertifikat Magang"
+              class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Dinas Kependudukan dan Pencatatan Sipil Kabupaten Belu</span>
+            <h3>Peserta Magang – Tahun Akademik 2025/2026</h3>
+            <p>Penghargaan atas pencapaian akademik berprestasi selama masa perkuliahan Informatika.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Sertifikat Magang Disdukcapil Belu.pdf"
+              data-title="Sertifikat Magang Disdukcapil Kabupaten Belu">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Cert 8 -->
+        <div class="glass-card cert-card tilt-card reveal-on-scroll"
+          data-keywords="pemateri mabim masa bimbingan mahasiswa baru himpunan informatika">
+          <div class="cert-badge-top"><i class="fa-solid fa-bullhorn"></i>Webinar Nasional</div>
+          <div class="cert-img-box">
+            <img src="assets/sertifikat/Thumb_sertifikat webinar.jpeg" alt="Thumb_sertifikat webinar"
+              class="cert-thumb-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Universitas Kristen Immanuel Yogyakarta & Institut Shanti Bhuana</span>
+            <h3>Peserta Webinar Cre a Science 11.0 2025</h3>
+            <p>Mengikuti webinar tingkat nasional bertema “Energi Cerdas & Masa Depan Digital: Peran Pemuda dalam Mencapai Indonesia Berkelanjutan 2045”, 21 Juni 2025.</p>
+            <button class="btn btn-sm btn-outline open-pdf-modal"
+              data-file="assets/sertifikat/Sertifikat Webinar.pdf"
+              data-title="Sertifikat Webinar">
+              <i class="fa-solid fa-file-pdf"></i> Lihat PDF
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!-- KONTAK SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle"><i class="fa-solid fa-paper-plane"></i> HUBUNGI SAYA</span>
+        <h2 class="section-title">Mari Terhubung & Berdiskusi</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info-col reveal-on-scroll">
+          <div class="glass-card contact-card tilt-card">
+            <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="c-details">
+              <h4>WhatsApp / Telepon</h4>
+              <p>+62 822-9823-4044</p>
+              <a href="https://wa.me/6282298234044" target="_blank" class="c-link">Kirim WhatsApp &rarr;</a>
+            </div>
+          </div>
+
+          <div class="glass-card contact-card tilt-card">
+            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="c-details">
+              <h4>Alamat Email</h4>
+              <p>billypallo5@gmail.com</p>
+              <button class="c-link copy-email-btn" data-email="billypallo5@gmail.com">
+                <i class="fa-solid fa-copy"></i> Salin Email
+              </button>
+            </div>
+          </div>
+
+          <div class="glass-card contact-card tilt-card">
+            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="c-details">
+              <h4>Lokasi Domisili</h4>
+              <p>Oetete, Oebobo, Kota Kupang, NTT</p>
+              <span class="c-sub">Jln Pemuda no 93, Kupang 85111</span>
+            </div>
+          </div>
+
+          <div class="glass-card contact-card tilt-card">
+            <div class="c-icon"><i class="fa-solid fa-id-card"></i></div>
+            <div class="c-details">
+              <h4>Biodata Pengguna</h4>
+              <p>Maumere, 28 Oktober 2003</p>
+              <button class="c-link open-biodata-trigger">
+                <i class="fa-solid fa-eye"></i> Buka Informasi Biodata
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Interactive Message Form -->
+        <div class="glass-card contact-form-card tilt-card reveal-on-scroll">
+          <div class="card-header">
+            <i class="fa-solid fa-comments card-icon"></i>
+            <h3>Kirim Pesan Langsung</h3>
+          </div>
+          <p class="form-desc">Isi formulir di bawah untuk mengirim pesan langsung ke WhatsApp Billie Bernmarc Bungtilu
+            Pallo:</p>
+
+          <form id="wa-form" class="wa-form">
+            <div class="form-group">
+              <label for="name">Nama Anda</label>
+              <input type="text" id="name" placeholder="Contoh: Budi Santoso" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Topik / Keperluan</label>
+              <input type="text" id="subject" placeholder="Contoh: Tawaran Pekerjaan / Proyek Multimedia" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Pesan Anda</label>
+              <textarea id="message" rows="4"
+                placeholder="Halo Billie, saya tertarik untuk mendiskusikan peluang kerja/proyek..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-glow">
+              <span>Kirim via WhatsApp</span> <i class="fa-brands fa-whatsapp"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3><i class="fa-solid fa-bolt"></i> BILLIE BERNMARC BUNGTILU PALLO, S.Kom.</h3>
+        <p>S1 Informatika Universitas Uyelindo (IPK 3.68) • Operator Multimedia & IT Specialist</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://wa.me/6282298234044" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:billypallo5@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2026 Billie Bernmarc Bungtilu Pallo, S.Kom. Hak Cipta Dilindungi Undang-Undang.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BIODATA PENGGUNA MODAL (MATCHING UPLOADED IMAGE 4) -->
+  <div id="biodata-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-container glass-modal modal-md">
+      <div class="modal-header">
+        <h3 id="biodata-modal-title"><i class="fa-solid fa-id-card"></i> Biodata pengguna</h3>
+        <button class="modal-close" id="biodata-modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" style="padding: 24px;">
+        <div class="biodata-grid">
+          <div class="biodata-field">
+            <span class="biodata-field-label">Nomor Induk Kependudukan</span>
+            <span class="biodata-field-value">5371042810030003</span>
+          </div>
+          <div class="biodata-field">
+            <span class="biodata-field-label">Tempat, tanggal lahir</span>
+            <span class="biodata-field-value">Maumere, 28 Oktober 2003</span>
+          </div>
+          <div class="biodata-field">
+            <span class="biodata-field-label">Jenis kelamin</span>
+            <span class="biodata-field-value">Laki-laki</span>
+          </div>
+          <div class="biodata-field">
+            <span class="biodata-field-label">Status</span>
+            <span class="biodata-field-value">Belum Kawin</span>
+          </div>
+          <div class="biodata-field">
+            <span class="biodata-field-label">Nomor telepon</span>
+            <span class="biodata-field-value">
+              <a href="https://wa.me/6282298234044" target="_blank"
+                style="color: var(--primary); text-decoration: underline;">082298234044</a>
+            </span>
+          </div>
+          <div class="biodata-field full-width">
+            <span class="biodata-field-label">Alamat sesuai KTP</span>
+            <span class="biodata-field-value">Oetete, Oebobo, KOTA KUPANG, NUSA TENGGARA TIMUR Jln Pemuda no 93
+              Kelurahan Oetete Kecamatan Oebobo Kota Kupang Nusa Tenggara Timur 85111</span>
+          </div>
+          <div class="biodata-field full-width">
+            <span class="biodata-field-label">Alamat domisili</span>
+            <span class="biodata-field-value">Oetete, Oebobo, KOTA KUPANG, NUSA TENGGARA TIMUR, Jln Pemuda no 93
+              Kelurahan Oetete Kecamatan Oebobo Kota Kupang Nusa Tenggara Timur, 85111</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer"
+        style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px;">
+        <a href="https://wa.me/6282298234044" target="_blank" class="btn btn-sm btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp
+        </a>
+        <button class="btn btn-sm btn-secondary biodata-modal-close-btn">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF VIEWER MODAL -->
+  <div id="pdf-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-container glass-modal">
+      <div class="modal-header">
+        <h3 id="pdf-modal-title"><i class="fa-solid fa-file-pdf"></i> Dokumen Sertifikat</h3>
+        <button class="modal-close" id="pdf-modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <iframe id="pdf-iframe" src="" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <a id="pdf-download-btn" href="" download class="btn btn-sm btn-primary">
+          <i class="fa-solid fa-download"></i> Unduh File PDF
+        </a>
+        <button class="btn btn-sm btn-secondary modal-close-btn">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div id="project-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-container glass-modal modal-lg">
+      <div class="modal-header">
+        <h3 id="project-modal-title"><i class="fa-solid fa-diagram-project"></i> Detail Proyek</h3>
+        <button class="modal-close" id="project-modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="project-modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- PHOTO ZOOM MODAL -->
+  <div id="photo-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-container glass-modal modal-md">
+      <div class="modal-header">
+        <h3 id="photo-modal-title"><i class="fa-solid fa-image"></i> Preview Foto Kegiatan</h3>
+        <button class="modal-close" id="photo-modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" style="text-align: center; padding: 20px;">
+        <img id="photo-modal-img" src="" alt="Zoom Foto Kegiatan"
+          style="max-height: 70vh; margin: 0 auto; border-radius: var(--radius-md); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+        <p id="photo-modal-caption"
+          style="margin-top: 15px; font-weight: 600; color: var(--text-main); font-size: 1rem;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toast-message">Pesan berhasil disalin!</span>
+  </div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="back-to-top" class="back-to-top" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
